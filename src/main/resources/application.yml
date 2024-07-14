@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: company
+  cloud:
+    discovery:
+      enabled: true
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  jackson:
+    default-property-inclusion: non_null
+server:
+  port: 7778
